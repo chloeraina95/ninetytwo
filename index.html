@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ninetytwo IT Consultants</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.css">		
+	<link rel="stylesheet" href="css/bootstrap/bootstrap-grid.css">	
+	<link rel="stylesheet" href="css/bootstrap/bootstrap-reboot.css">	
+	<link rel="stylesheet" href="css/bootstrap/bootstrap-utilities.css">
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'>
+	<!-- banners and slidders -->
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<!-- alert -->
+	<link rel="stylesheet" href="css/sweetalert2.css">
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=0">
+	<!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body  id="section_home">
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+		<div class="modal-header">
+			<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			...
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+			<button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+		</div>
+	</div>
+	</div>
+	
+	<!-- Button trigger modal -->
+	<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+		Launch demo modal
+	</button> -->
+
+	<div class="content hf">
+		<header class="hf">
+			<div class="header_1 hf">
+				<div class="ns d-flex">
+					<div class="h_sched">Mon-Fri <span style="color: #fff;">(9:00 am-6:00 pm)</span></div>
+					<div class="h_location">0123 Makati, Metro Manila, Philippines</div>
+					<div class="h_sm d-flex">
+						<div onclick="window.location='https://fb.com/';">Follow Us</div>
+						<div style="pointer-events: none;">/</div>
+						<div onclick="window.location='mailto:info@ninetytwo.com';">Email</div>
+					</div>
+				</div>
+			</div>
+			<div class="header_2 hf">
+				<div class="ns d-flex">
+					<div class="h_logo">
+						<img src="images/logo-1.png" alt="">
+					</div>
+					<div class="h_nav d-flex">
+						<div class="ni_home" onclick="window.location='#section_home';">Home</div>
+						<div class="ni_about" onclick="window.location='#section_about';">About</div>
+						<div class="ni_services" onclick="window.location='#section_services';">Services</div>
+						<div class="ni_contact" onclick="window.location='#section_contact';">Contact</div>
+					</div>
+					<div class="h_contact d-flex">
+						<div>+ 123 456 7890</div>
+						<button onclick="window.location='#section_contact';">Contact Us <img src="images/arrow_top_right.png" alt=""></button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="s1 hf">
+			<div class="banner_img">
+				<div class="img_overlay"></div>
+				<img src="images/asset3.jpg" alt="">			
+			</div>
+			<div class="ns">
+				<div class="s1_cont">
+					<h1>Empowering Your Business with Tailored IT Solutions and Expert Guidance</h1>
+					<p>Transform your technology into a powerful asset with our expert IT consulting services designed to drive your success.</p>
+					<div class="s1_cont_btns">
+						<button style="background: #ff8851;" onclick="window.location='#section_contact';">Discover Your Solution <img src="images/arrow_top_right.png" alt=""></button>
+						<button onclick="window.location='#section_services';">Learn More <img src="images/arrow_top_right.png" alt=""></button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="s2 hf" id="section_about">
+			<div class="ns">
+				<div class="tagline_cont">
+					<div class="tagline_lines"></div>
+					<div>A trusted IT consulting company empowering your business.</div>
+					<div class="tagline_lines"></div>
+				</div>
+				<div class="about_us">
+
+					<div class="about_us_1">
+						<div class="sec_title_box">
+							<div class="sec_title_letter">A</div>
+						</div>
+						<div class="sec_title">
+							Our<br>About Us
+						</div>
+					</div>
+
+					<div class="about_us_2">
+						<div class="about_us_2_cont">
+							<h1>Your Trusted Partner in Delivering Innovative IT Solutions for Business Success</h1>
+							<p>
+								We are a dedicated IT consulting company focused on delivering tailored solutions to help businesses thrive in the digital age. Our mission is to bridge the gap between technology and business needs, offering customized strategies that drive efficiency, scalability, and growth.
+								<br><br>
+								With expertise and innovation at our core, we empower organizations to achieve their goals through technology. From streamlining operations to enhancing cybersecurity and enabling digital transformation, we provide the tools and insights businesses need to stay ahead in an ever-evolving landscape.
+							</p>
+							<button onclick="window.location='#section_contact';">Talk to Us <img src="images/arrow_top_right.png" alt=""></button>
+						</div>
+						<div class="round_txt">
+							<span class="text-ring" style="--total: 27;">
+								<span aria-hidden="true">
+									<!-- Obfuscated markup -->
+									<span style="--index: 0">N</span>
+									<span style="--index: 1">I</span>
+									<span style="--index: 2">N</span>
+									<span style="--index: 3">E</span>
+									<span style="--index: 4">T</span>
+									<span style="--index: 5">Y</span>
+									<span style="--index: 6">T</span>
+									<span style="--index: 7">W</span>
+									<span style="--index: 8">O</span>
+									<span style="--index: 9"> </span>
+									<span style="--index: 10">I</span>
+									<span style="--index: 11">T</span>
+									<span style="--index: 12"> </span>
+									<span style="--index: 13">C</span>
+									<span style="--index: 14">O</span>
+									<span style="--index: 15">N</span>
+									<span style="--index: 16">S</span>
+									<span style="--index: 17">U</span>
+									<span style="--index: 18">L</span>
+									<span style="--index: 19">T</span>
+									<span style="--index: 20">A</span>
+									<span style="--index: 21">N</span>
+									<span style="--index: 22">T</span>
+									<span style="--index: 23">S</span>
+									<span style="--index: 24"> </span>
+									<span style="--index: 25">&bull;</span>									
+								</span>
+								<span class="sr-only">
+									Your text here!
+								</span>
+							</span>
+							<div class="quote_circle"><img src="images/quotes.png" alt="" onclick="window.location='#section_testimony';"></div>
+						</div>
+					</div>
+
+					<div class="about_us_3">
+						<div class="about_us_3__item">
+							<div>50+</div>
+							<div>Completed software solutions</div>
+						</div>
+						<div class="about_us_3__item">
+							<div>250+</div>
+							<div>Clients Across the Globe</div>
+						</div>
+						<div class="about_us_3__item">
+							<div>12+</div>
+							<div>Certified Experts</div>
+						</div>
+						<div class="about_us_3__item">
+							<div>17+</div>
+							<div>Skill-based team</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="s3 hf" id="section_services">
+			<div class="ns">
+				
+				<div class="about_us_1">
+					<div class="sec_title_box">
+						<div class="sec_title_letter">S</div>
+					</div>
+					<div class="sec_title">
+						Our<br>Services
+					</div>
+				</div>
+
+				<div class="s3_cont">
+					<div class="s3_cont_row">
+						<div class="s3_cont_item">
+							<div class="s3_item_icon_cont">
+								<div><img src="images/arrow_top_right_orange.png" alt=""></div>
+							</div>
+							<div class="s3_item_text_cont">
+								<h4>Custom Software Development</h4>
+								<p>We create bespoke software solutions designed to address your unique business challenges, helping you streamline operations, increase efficiency, and drive innovation.</p>
+							</div>
+						</div>
+						<div class="s3_cont_item">
+							<div class="s3_item_icon_cont">
+								<div><img src="images/arrow_top_right_orange.png" alt=""></div>
+							</div>
+							<div class="s3_item_text_cont">
+								<h4>Cloud Solutions and Migration</h4>
+								<p>Our cloud services help you seamlessly migrate to secure cloud platforms, providing greater scalability, flexibility, and cost-efficiency, all while ensuring data safety and compliance.</p>
+							</div>
+						</div>
+						<div class="s3_cont_item">
+							<div class="s3_item_icon_cont">
+								<div><img src="images/arrow_top_right_orange.png" alt=""></div>
+							</div>
+							<div class="s3_item_text_cont">
+								<h4>Cybersecurity Services</h4>
+								<p>Safeguard your business with our comprehensive cybersecurity strategies, protecting your systems from evolving threats through proactive monitoring, risk assessments, and security solutions.</p>
+							</div>
+						</div>
+					</div>
+					<div class="s3_cont_row">
+						<div class="s3_cont_item">
+							<div class="s3_item_icon_cont">
+								<div><img src="images/arrow_top_right_orange.png" alt=""></div>
+							</div>
+							<div class="s3_item_text_cont">
+								<h4>IT Strategy and Consulting</h4>
+								<p>Our expert consultants work closely with you to develop a tailored IT strategy that aligns with your business objectives, maximizing technology investments and fostering long-term growth.</p>
+							</div>
+						</div>
+						<div class="s3_cont_item">
+							<div class="s3_item_icon_cont">
+								<div><img src="images/arrow_top_right_orange.png" alt=""></div>
+							</div>
+							<div class="s3_item_text_cont">
+								<h4>Data Analytics and Business Intelligence</h4>
+								<p>Harness the power of your data with advanced analytics and business intelligence solutions, enabling smarter decision-making, improved operational efficiency, and enhanced business performance.</p>
+							</div>
+						</div>
+						<div class="s3_cont_item">
+							<div class="s3_item_icon_cont">
+								<div><img src="images/arrow_top_right_orange.png" alt=""></div>
+							</div>
+							<div class="s3_item_text_cont">
+								<h4>Managed IT Services</h4>
+								<p>We provide full-service IT management, ensuring your systems run smoothly with ongoing support, proactive maintenance, and issue resolution, allowing you to focus on growing your business.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="s4 hf" id="section_testimony">
+			<div class="ns">
+				<div class="s4_col">
+					<div class="about_us_1">
+						<div class="sec_title_box">
+							<div class="sec_title_letter">T</div>
+						</div>
+						<div class="sec_title">
+							What Client<br>Says?
+						</div>
+					</div>
+					<div class="quotes">
+						<img src="images/quotes.png" alt="">
+					</div>
+				</div>
+				<div class="s4_col">
+					<div class="s4_upper d-flex">
+						<div class="s4_upper_icon">
+							<img src="images/john.jpg" alt="">
+						</div>
+						<div class="s4_upper_title">
+							<div>John Doe</div>
+							<div>Founder</div>
+						</div>
+					</div>
+					<div class="s4_testimony">
+						Working with NinetyTwo IT Consultants has been a game-changer for our business. Their expert IT consulting helped us streamline our operations and improve our cybersecurity, allowing us to focus on growth with peace of mind. Their team is responsive, professional, and always goes above and beyond to ensure we have the best technology solutions. Highly recommend!
+					</div>
+					<div class="s4_rating">
+						<strong>5.0</strong> 
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<span>review</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="s5 hf" id="section_contact">
+			<div class="ns">
+
+				<div class="s5_row d-flex">
+
+					<div class="about_us_1">
+						<div class="sec_title_box">
+							<div class="sec_title_letter">R</div>
+						</div>
+						<div class="sec_title">
+							Reach Out<br>To Us
+						</div>
+					</div>
+					<div class="contact_h1">
+						<h1>Connect with Our IT Experts—Start Your Consultation to Unlock Tailored Solutions for Your Business</h1>
+					</div>
+
+				</div>
+
+				<div class="s5_row d-flex contact_form">
+
+					<div class="s5_col d-flex">
+						<div class="s5_item">
+							<div class="s5_field">
+								<label for="">Name</label>
+								<input type="text" placeholder="Enter your full name">
+							</div>
+						</div>
+						<div class="s5_item">
+							<div class="s5_field">
+								<label for="">Email Address</label>
+								<input type="text" placeholder="Enter your email address">
+							</div>
+						</div>
+					</div>
+					<div class="s5_col d-flex">
+						<div class="s5_item">
+							<div class="s5_field">
+								<label for="">Company Name</label>
+								<input type="text" placeholder="Enter your company name (Optional)">
+							</div>
+						</div>
+						<div class="s5_item">
+							<div class="s5_field">
+								<label for="">Service Needed</label>
+								<input type="text" placeholder="Type the service you need (e.g., Cloud Solutions, Cybersecurity)">
+							</div>
+						</div>
+					</div>
+					<div class="s5_col">
+						<label for="">Your Message</label>
+						<textarea name="message" rows="10" cols="50" placeholder="Enter your message or project details here..."></textarea>
+					</div>
+					<button>Send Inquiry <img src="images/arrow_top_right.png" alt=""></button>
+				</div>
+
+			</div>
+		</section>
+
+		<footer class="hf">
+			<div class="ns d-flex">
+				<div class="footer_col">
+					<div class="footer_title">About</div>
+					<p>Ninetytwo are a dedicated IT consulting company focused on delivering tailored solutions to help businesses thrive in the digital age.</p>
+					<p>With expertise and innovation at our core, we empower organizations to achieve their goals through technology.</p>
+					<img class="footer_logo" src="images/logo-1.png" alt="">
+				</div>
+				<div class="footer_col">
+					<div class="footer_title">Site Navigation</div>
+					<ul>
+						<li><a href="#section_home">Home</a></li>
+						<li><a href="#section_about">About</a></li>
+						<li><a href="#section_services">Services</a></li>
+						<li><a href="#section_contact">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="footer_col">
+					<div class="footer_title">Information Center</div>
+					<p>0123 2nd Street, Makati, Metro Manila, Philippines</p>
+					<br>
+					<p style="color: #fff; font-weight: 600;">+ 123 456 7890</p>
+				</div>
+			</div>
+			<div class="footer_bottom hf">
+				<p>© 2024 <span style="color: #fff;">NinetyTwo</span> IT Consultants</p>
+			</div>
+		</footer>
+	</div>
+
+	<!-- scripts -->
+	<script src="js/jquery-3.6.0.js" type="text/javascript"></script>
+	<script src='js/jquery.min.js'></script>
+	<!-- alert -->
+	<script src="js/sweetalert2.min.js"></script>
+	<!-- banner/slidder -->
+	<script type="text/javascript" src="js/slick.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script>
+	<!-- hovers/clicks -->
+	<script src="js/jquery.hoverIntent.js"></script>
+	<!-- auto scroll -->
+	<script src="js/jquery.autoscroll.js"></script>
+	<!-- bootstrap -->
+	<script src="js/bootstrap/bootstrap.js"></script>
+	<script src="js/bootstrap/bootstrap.bundle.js"></script>
+	<!-- custom/global -->
+	<script src="js/custom.js"></script>
+</body>
+</html>
